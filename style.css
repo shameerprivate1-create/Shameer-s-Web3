@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #d68181;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: rgb(0, 0, 0);
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, #000000, #000000);
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  width: 220px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+}
+
+.contact {
+  text-align: center;
+  padding: 50px;
+  background: #000000;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000000;
+}
